@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "fullstackreact",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authfullstackreactbca38b8f",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

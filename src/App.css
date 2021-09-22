@@ -5,3 +5,28 @@
 .mb-3{
   margin-bottom: 3em !important;
 }
+
+.ui.button.floatingButton{
+  padding:0;
+  width:60px;
+  height: 60px;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  border-radius: 100%;
+  background-color: var( --amplify-primary-color);
+}
+.ui.button.floatingButton:hover{
+  background-color: var( --amplify-primary-color);
+}
+
+.ui.button.floatingButton{
+  font-size: 2rem;
+  color: var(--amplify-secondary-contrast);
+}
+
+.floatingButton__icon{
+  margin:0 !important;
+  padding:0 !important;
+
+}

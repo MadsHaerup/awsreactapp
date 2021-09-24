@@ -6,6 +6,13 @@
   margin-bottom: 3em !important;
 }
 
+.ml-3{
+  margin-left:3em !important;
+}
+.mr-3{
+  margin-right: 3em !important;
+}
+
 .ui.button.floatingButton{
   padding:0;
   width:60px;
